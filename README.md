@@ -21,7 +21,7 @@ FROM jeux
 GROUP BY console 
 HAVING AVG(prix_vendeur) > 30;
 
-
+## Comment l'executer ?
 Pour exécuter et tester ces requêtes d'analyse chez vous :
 1. Copiez le contenu du fichier `schema.sql` présent dans ce dépôt.
 2. Collez-le dans votre outil SQL 
