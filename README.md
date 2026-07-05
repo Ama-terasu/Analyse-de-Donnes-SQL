@@ -21,3 +21,9 @@ FROM jeux
 GROUP BY console 
 HAVING AVG(prix_vendeur) > 30;
 
+
+Pour exécuter et tester ces requêtes d'analyse chez vous :
+1. Copiez le contenu du fichier `schema.sql` présent dans ce dépôt.
+2. Collez-le dans votre outil SQL 
+3. Exécutez le script pour générer la base de données et insérer les données de test.
+4. Vous pouvez ensuite copier-coller et lancer les requêtes d'analyses détaillées ci-dessous !
